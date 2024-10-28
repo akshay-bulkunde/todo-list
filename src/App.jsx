@@ -85,7 +85,7 @@ const App = () => {
             <div id={index} className="flex mt-2">
               <div className="w-24">{todo}</div>
               <button
-                className="bg-green-500 mr-1 py-1 px-2 rounded-md text-white ml-20" 
+                className="bg-green-500 mr-1 py-1 px-2 rounded-md text-white ml-21" 
                 value="edit"
                 onClick={() => handleEdit(index)}
               >
